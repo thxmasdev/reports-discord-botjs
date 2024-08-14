@@ -16,7 +16,7 @@ module.exports = {
             .addFields(
                 { name: 'General Commands', value: '`/botinfo` - Get information about of the bot\n`/help` - Displays this help menu' },
 
-                { name: 'Suggestion Commands', value: '`/suggest create <your suggestion>` - Create a new suggestion\n`/suggest accept <suggestion ID>` - Accept a suggestion\n`/suggest deny <suggestion ID>` - Deny a suggestion' }
+                { name: 'Report Commands', value: '`/report create <user> <your report>` - Create a new report\n`/report resolved <report ID>` - Resolved a Report\n`/report insufficient <report ID>` - Insufficient a Report' }
             )
 
             .setFooter({ text: `Developed by thxmasdev`, iconURL: botAvatarURL });
