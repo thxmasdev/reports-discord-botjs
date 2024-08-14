@@ -45,7 +45,7 @@ Create a `config.json` file in the root directory with the following structure:
 # 📜 How It Works
 ### Slash Commands
 - `/report create [user] [message-report]`: Creates a new player report in the specified channel.
-- `/suggest resolved [message_id]`: Marks a report as resolved and updates the message.
+- `/report resolved [message_id]`: Marks a report as resolved and updates the message.
 - `/report insufficient [message_id]`: Marks a report as insufficient and updates the message.
 - `/help` & `/botinfo`: Shows basic information about the bot.
 
